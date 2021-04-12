@@ -1,0 +1,71 @@
+Developers will develop source code
+Build engineers will generate binaries 
+
+Build is a process of converting source code to binaries 
+
+Binaries will be shipped to customers.
+
+Every java file has a .class file
+
+we cannot ship .class files to customers
+
+.class--> compiled version of java code which can run on any platform where java is installed.
+we will archive and  ship to customers in terms of jar file.
+.class file consists of a byte code 
+
+Creating a binaries for java code and web file and packaging them nicely to customer .
+
+Build Automation - compile 
+                   packaging 
+                   shipping 				   
+		we will use the script 
+		Normally build engineers will work on After developing
+		
+It is a scripting to automate the series of tasks that form your build process which includes compilation,running test cases,deploying,packaging.
+Build is a process of generating project artifacts.
+
+Artifacts--> Final entities that are directly deployed on the server.
+
+Automated builds can be implemented through scripting languages.
+Ant is one of the most popular build tool java tools.
+
+
+Release managment is a process of planning , building ,testing and deploying hardware and software ,the version control and storage software.
+
+Build Mangaement
+
+
+Source code for java project
+
+Source code                       Build Tools          Final artifacts
+Java                               Ant & Maven           .jar,.war,.ear
+.net                               nant & msbuild        .dll,.exe,.mst        
+c/c++                              make file              obj(object) file,rpm(remote pacakge manager)
+
+
+
+jar --> java archive (This jar consists(bundle) of  .class files,image files,other component files)   
+           which will be needed in the whole application as an application we have jar file but jar consists of all these files       
+           Java archive file format enables u to bundle multiple archieve files into single jar file
+		   .jar file is designed to facilitate the packaging of java applications
+			
+war --> web archive (contains jars,jsp's,servlets,html's,gif's etc..,)
+       war is deployed on TOMcat web application server   
+	   war file is a  java archive file used to store jar,jsps,servelets,metadata informations,classes,images,sounds,tag libraries
+       It is standard file extension which will be in a .war format.
+       war files are used to  package web modules.
+       war files for webapplications that are deployed to a servelet jsp's engines.
+	   
+ear --> Enterprise archive files (EJBs,jar and war)(war+jar+ejbs)
+        It is a J2E application that can be deployed on a websphere.
+          
+    -->   deployed on weblogic/jboss/websphere application servers.
+	
+	
+	
+	
+	
+	https://ant.apache.org/manual/index.html
+	
+	
+	07/04/2021
